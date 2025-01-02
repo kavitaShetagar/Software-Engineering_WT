@@ -1,0 +1,91 @@
+/* AdminLogin.css */
+
+/* Basic styling for the container */
+.admin-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Heading style */
+.admin-login-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.admin-login-container form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Styling for each input field */
+.admin-login-container form div {
+  margin-bottom: 15px;
+}
+
+/* Label style */
+.admin-login-container form label {
+  font-size: 1rem;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields styling */
+.admin-login-container form input,
+.admin-login-container form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.admin-login-container button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the button */
+.admin-login-container button:hover {
+  background-color: #45a049;
+}
+
+/* Message styling */
+.admin-login-container p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d9534f; /* Red for error messages */
+}
+
+/* Success message styling */
+.admin-login-container p {
+  color: #5cb85c; /* Green for success messages */
+}
+
+/* Style for the select dropdown */
+.admin-login-container select {
+  appearance: none;
+  padding-right: 25px; /* Padding for dropdown icon */
+}
+

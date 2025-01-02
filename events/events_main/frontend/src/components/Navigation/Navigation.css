@@ -1,0 +1,42 @@
+nav {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, #ffffff, #d7ffda);
+    position: fixed;
+  }
+  h1 {
+    font-size: 32px; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #2c3e50; /* Dark color for contrast */
+    margin: 0;
+    padding: 20px 0 0 80px; /* Align with nav padding */
+    position: fixed; /* Keep it aligned with the fixed nav bar */
+    z-index: 1000; /* Ensure it stays on top */
+    background: linear-gradient(to bottom, #ffffff, #d7ffda); /* Match nav background */
+    width: 100%; /* Full-width to align with the nav */
+    text-align: left; /* Align text to the left */
+  }
+  
+  
+  ul {
+    height: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 36px;
+    list-style-type: none;
+    padding: 0 80px 0 80px;
+    border-bottom: 0.4px solid rgb(0, 0, 0);
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  nav ul li a {
+    font-size: 16px !important;
+    font-weight: 600;
+  }
+  nav ul li a:hover {
+    color: var(--primary-color);
+  }
+  

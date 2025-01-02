@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Home Container */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(246, 254, 246);
+    justify-content: center;  /* Ensures content is vertically centered */
+    align-items: center;
+    width: 100%;
+    background: url('/my_images/kle_bvb.jpg') no-repeat center center/cover; /* Ensure the background image covers the entire container */
+  }
+
+  .home-main {
+    flex: 1;
+    background: url('/my_images/kle_bvb.jpg') no-repeat center center/cover; /* Ensure the background image covers the entire container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Ensure the background takes full height of the viewport */
+    margin: 0;
+  }
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a maximum width for better layout */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Centers the content inside the hero section */
+    align-items: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    z-index: 2; /* Ensure content is above the background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to make text stand out */
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .hero-section h2 {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(10, 10, 10, 0.3);
+  }
+  
+  .hero-section p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #fcfcfc;
+    line-height: 1.6;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  .next-btn {
+    background-color: transparent;  /* Transparent background */
+    color: #020b15;                 /* Set text color to match the original button color */
+    padding: 12px 25px;
+    font-size: 1.4rem;
+    border: 2px solid #020912;      /* Border color matching text color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: #02080e;     /* On hover, change the background to blue */
+    color: white;                  /* Change text color to white */
+    transform: translateY(-3px);
+  }
+  
+  .next-btn:active {
+    transform: translateY(0);
+  }
+  
+  /* Footer */
+  .home-footer {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  

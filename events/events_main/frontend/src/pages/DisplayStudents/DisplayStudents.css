@@ -1,0 +1,96 @@
+/* Container for the table */
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Header Styling */
+  th, td {
+    padding: 14px 18px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Header background */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase; /* Makes header text all caps */
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  /* Even rows background color */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Row Styling */
+  td {
+    background-color: #fff;
+  }
+  
+  /* Empty Data / No students found */
+  td[colspan="5"] {
+    text-align: center;
+    color: #ff4d4d;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Table: Stack columns on small screens */
+  @media screen and (max-width: 768px) {
+    table {
+      width: 100%;
+    }
+  
+    th, td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    td {
+      display: block;
+      text-align: right;
+      padding: 8px 10px;
+      border: none;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #4CAF50;
+    }
+  }
+  

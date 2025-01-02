@@ -1,0 +1,87 @@
+/* LoginPage.css */
+/* Assuming this is your login page container */
+.login-page {
+    background-image: url('/my_images/clubss.jpg'); /* Replace with actual image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the background covers the entire height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Change text color for visibility */
+    flex-direction: column;
+  }
+  
+  /* Optional: Styling for login form container */
+  .login-container {
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background behind the form for better text visibility */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 300px;
+  }
+  h2 {
+    font-size: 40px; /* Larger font size for better emphasis */
+    color: #141111; /* White color for contrast with the background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow for better readability */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+    text-align: center; /* Centers the heading */
+    font-family: 'Poppins', sans-serif; /* Modern and clean font family */
+    letter-spacing: 1.5px;/* Slight spacing between letters for a refined look */
+    align-items: center;
+  }
+  
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:rgb(14, 2, 2);
+    font-size: large;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .login-button {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    color: white; /* Text color for contrast */
+    border: 1px solid white; /* Optional: Add a border for better visibility */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.login-button:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Slightly less transparent on hover */
+}
+
+
+
+
+  
